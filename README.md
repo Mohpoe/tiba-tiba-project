@@ -52,7 +52,7 @@ Sebelum meng-install aplikasi **Composer**, pastikan kamu telah meng-install [XA
 
 5. Tunggu hingga proses *cloning* selesai dan seluruh file dari repository ini akan tersimpan di direktori lokal. Selanjutnya buka direktori tersebut melalui **cmd** atau **Git bash** lalu tuliskan perintah `composer install`, dan proses instalasi framework Laravel akan dilakukan, tunggu hingga proses tersebut selesai.
 
-6. Setelah itu jalankan perintah `php artisan key:generate` dan aplikasi Danus siap dijalankan menggunakan perintah `php artisan serve` melalui **cmd** atau **Git bash**.
+6. Setelah itu jalankan perintah `php artisan key:generate` dan aplikasi Danus siap dijalankan menggunakan perintah `php artisan serve` (Untuk menjalankan di port tertentu, gunakan `php artisan serve --port=8001`, ganti dengan port yang kamu inginkan) melalui **cmd** atau **Git bash**.
 
 7. Jika terdapat pesan *error* seperti gambar berikut, silakan klik pada **Generate app key**. (Hal ini terjadi apabila perintah `php artisan key:generate` tidak dijalankan).
 
