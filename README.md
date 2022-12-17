@@ -1,64 +1,172 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="https://raw.githubusercontent.com/Mohpoe/Danus/master/public/assets/images/logo.png" width="100"></a></p>
+
+```
+   __  _ __             __  _ __                                _           __ 
+  / /_(_/ /_  ____ _   / /_(_/ /_  ____ _   ____  _________    (____  _____/ /_
+ / __/ / __ \/ __ `/  / __/ / __ \/ __ `/  / __ \/ ___/ __ \  / / _ \/ ___/ __/
+/ /_/ / /_/ / /_/ /  / /_/ / /_/ / /_/ /  / /_/ / /  / /_/ / / /  __/ /__/ /_  
+\__/_/_.___/\__,_/   \__/_/_.___/\__,_/  / .___/_/   \______/ /\___/\___/\__/  
+                                        /_/              /___/                   
+                                                                                      
+```
+
+## Cara Install Composer
+
+Sebelum meng-install aplikasi **Composer**, pastikan kamu telah meng-install [XAMPP](https://www.apachefriends.org/download.html) ataupun software web server lokal lainnya.
+
+1. Download [Composer](https://getcomposer.org/download/) dan pilih **Composer-Setup.exe**.
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<img src="https://raw.githubusercontent.com/Mohpoe/dokumentasi/master/danus/composer-download.png">
 </p>
 
-## About Laravel
+2. Install Composer hingga selesai. Untuk memastikan proses instalasi telah sukses, buka **cmd** lalu tuliskan perintah `composer`. Jika tampil seperti berikut ini, artinya proses instalasi telah selesai.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+<img src="https://raw.githubusercontent.com/Mohpoe/dokumentasi/master/danus/composer-test.png">
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+3. Sampai di sini, kamu sudah bisa install Laravel di folder manapun yang kamu inginkan. Tetapi untuk proses instalasi Laravel pada repositori dari Github, ikuti langkah berikutnya.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Menghubungkan GitHub ke VSCode & Repository Danus
 
-## Learning Laravel
+1. Download dan install VSCode melalu [website VSCode](https://code.visualstudio.com/download). Untuk langkah-langkah proses instalasi, silakan cari referensi dari situs lain atau [di sini](https://www.sekayuweb.com/2021/07/cara-install-visual-studio-code-di-windows.html).
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+2. Setelah itu, buka aplikasi VSCode dan pilih menu **Account** yang ada di pojok kiri-bawah, dan hubungkan akun GitHub kamu. Pastikan akun GitHub tersebut sudah bergabung menjadi kontributor pada repository Danus ini untuk bisa melanjutkan ke langkah berikutnya.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<p align="center">
+<img src="https://raw.githubusercontent.com/Mohpoe/dokumentasi/master/danus/github-account.png">
+</p>
 
-## Laravel Sponsors
+3. Setelah terhubung, buka menu **Source Control**, selanjutnya kamu akan diarahkan untuk meng-install aplikasi **Git** jika belum. Silakan install aplikasi **Git**. Untuk langkah-langkah proses instalasi **Git**, silakan cari referensi dari situs lain atau [di sini](https://www.niagahoster.co.id/blog/git-tutorial-dasar/).
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<p align="center">
+<img src="https://raw.githubusercontent.com/Mohpoe/dokumentasi/master/danus/github-source-control.png">
+</p>
 
-### Premium Partners
+4. Setelah **Git** ter-install, maka di menu *Source Control* pilih *Clone Repository*, pilih *Clone from GitHub* dan pilih *repository* yang ingin kamu *clone*, dalam hal ini repository **Danus**.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+<p align="center">
+<img src="https://raw.githubusercontent.com/Mohpoe/dokumentasi/master/danus/github-clone-repo.png">
+</p>
 
-## Contributing
+5. Tunggu hingga proses *cloning* selesai dan seluruh file dari repository ini akan tersimpan di direktori lokal. Selanjutnya buka direktori tersebut melalui **cmd** atau **Git bash** lalu tuliskan perintah `composer install`, dan proses instalasi framework Laravel akan dilakukan, tunggu hingga proses tersebut selesai.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+6. Setelah itu jalankan perintah `php artisan key:generate` dan aplikasi Danus siap dijalankan menggunakan perintah `php artisan serve` melalui **cmd** atau **Git bash**.
 
-## Code of Conduct
+7. Jika terdapat pesan *error* seperti gambar berikut, silakan klik pada **Generate app key**. (Hal ini terjadi apabila perintah `php artisan key:generate` tidak dijalankan).
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<p align="center">
+<img src="https://raw.githubusercontent.com/Mohpoe/dokumentasi/master/danus/IJ3ai.png">
+</p>
 
-## Security Vulnerabilities
+## Kumpulan perintah `php artisan`
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Membuat project baru
 
-## License
+Pertama-tama buka *command prompt* dan arahkan ke folder di mana kamu ingin menempatkan folder *project* laravel kamu. Lalu tuliskan perintah berikut di `cmd`. **Pastikan kamu kenali fungsi dari perintah-perintah berikut sebelum menjalankannya!**
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```
+composer create-project --prefer-dist laravel/laravel <nama_folder>
+```
+
+Atau menggunakan perintah:
+
+```
+composer global require laravel/installer
+laravel new <nama_folder>
+```
+
+### Membuat Controller
+
+```
+php artisan make:controller PageController
+```
+
+### Membuat & menjalankan Migration
+
+```
+php artisan make:migration create_penggunas_table --create=penggunas
+php artisan migrate
+php artisan migrate:reset
+php artisan migrate:fresh
+php artisan migrate:fresh --seed
+php artisan migrate:rollback --step=1
+```
+
+### Membuat Model
+
+```
+php artisan make:model Pengguna
+php artisan make:model Mahasiswa -mc
+php artisan make:model Mahasiswa --migration --controller
+```
+
+### Membuat Middleware
+
+```
+php artisan make:middleware KhususAdminMiddleware
+```
+
+### Membuat Request Validated (format validasi dari form input)
+
+```
+php artisan make:request PendaftaranMahasiswa
+```
+
+### Membuat resource (public function CRUD di controller)
+
+```
+php artisan make:model Barang --mcr
+php artisan make:model Barang --migration --controller --resource
+```
+
+### Membuat Database Seeder
+
+```
+php artisan make:seeder PenggunaTableSeeder
+php artisan db:seed
+php artisan db:seed --class=PenggunaTableSeeder
+```
+
+### Membuat Factory
+
+```
+php artisan make:factory BarangFactory
+```
+
+### Tambah Class Mailable
+
+```
+php artisan make:mail TolakBerkas
+```
+
+### Membersihkan Cache
+
+```
+php artisan optimize:clear
+```
+
+### Tampilkan daftar vendor/packages
+
+```
+composer show -i
+```
+
+### Uninstall package
+
+```
+composer remove spatie/browsershot
+```
+
+### Install package dengan versi tertentu
+
+```
+composer require knplabs/knp-snappy:1.3.0
+```
+
+## Package List
+
+Berikut ini daftar *package* yang digunakan dalam proyek ini.
+
+1. maatwebsite/excel
