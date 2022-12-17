@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\LamanController;
+use App\Http\Controllers\PenggunaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/masuk', [LamanController::class, 'masukTampil'])->name('masuk.tampil');
+Route::post('/masuk', [LamanController::class, 'masukProses'])->name('masuk.proses');
+
+Route::get('/', [LamanController::class, 'beranda'])->name('beranda');
