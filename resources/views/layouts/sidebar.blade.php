@@ -8,10 +8,10 @@
       <!-- Left Menu Start -->
       <ul class="metismenu list-unstyled" id="side-menu">
         @auth
-          <li class="menu-title">Menu</li>
+          <li class="menu-title">Pasien</li>
 
           <li>
-            <a href="#">
+            <a href="{{ route('beranda') }}">
               <i data-feather="users"></i>
               <span>Data Pasien</span>
             </a>
@@ -23,8 +23,16 @@
               <span>Rekapitulasi</span>
             </a>
           </li>
+          </li>
 
-          <li class="menu-title">Bantuan</li>
+          <li class="menu-title">Lainnya</li>
+
+          <li>
+            <a href="#">
+              <i data-feather="user"></i>
+              <span>Profil</span>
+            </a>
+          </li>
 
           <li>
             <a href="#">
