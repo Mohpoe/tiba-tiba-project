@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Pasien;
 use App\Models\Pengguna;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -11,7 +12,8 @@ class LamanController extends Controller
 {
   public function beranda()
   {
-    return view('welcome');
+    $pasiens = Pasien::factory()->count(15)->make();
+    return view('beranda', ['pasiens' => $pasiens]);
   }
 
   public function masukTampil()
@@ -36,5 +38,20 @@ class LamanController extends Controller
     }
 
     return redirect()->route('masuk.tampil')->with('pesanGagal', true);
+  }
+
+  public function keluar(Request $request)
+  {
+    Auth::logout();
+
+    $request->session()->invalidate();
+
+    $request->session()->regenerateToken();
+
+    if (!Auth::check()) {
+      return redirect()->route('beranda')->with('pesanSukses', 'Anda telah keluar!');
+    } else {
+      return redirect()->route('beranda')->with('pesanGagal', false);
+    }
   }
 }
