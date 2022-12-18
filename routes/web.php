@@ -22,6 +22,6 @@ Route::middleware(['guest'])->group(function () {
 
 Route::middleware(['login'])->group(function () {
   Route::get('/', [LamanController::class, 'beranda'])->name('beranda');
-  Route::get('/keluar', [LamanController::class, 'keluar'])->name('keluar');
+  Route::post('/keluar', [LamanController::class, 'keluar'])->name('keluar');
 });
 
