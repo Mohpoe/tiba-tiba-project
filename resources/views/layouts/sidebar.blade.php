@@ -7,9 +7,23 @@
     <div id="sidebar-menu">
       <!-- Left Menu Start -->
       <ul class="metismenu list-unstyled" id="side-menu">
-        <li class="menu-title">Divisi</li>
-
         @auth
+          <li class="menu-title">Menu</li>
+
+          <li>
+            <a href="#">
+              <i data-feather="users"></i>
+              <span>Data Pasien</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i data-feather="activity"></i>
+              <span>Rekapitulasi</span>
+            </a>
+          </li>
+
           <li class="menu-title">Bantuan</li>
 
           <li>
